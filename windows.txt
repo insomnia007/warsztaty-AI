@@ -1,0 +1,58 @@
+#0 Windows Insider
+https://support.microsoft.com/pl-pl/windows/do%C5%82%C4%85cz-do-niejawnego-programu-test%C3%B3w-systemu-windows-i-zarz%C4%85dzaj-ustawieniami-niejawnego-programu-test%C3%B3w-ef20bb3d-40f4-20cc-ba3c-a72c844b563c
+
+Uwaga - bardzo częste, niemal cotygodniowe aktualizacje!
+
+#1 szybki OCR - zrzut ekranu
+
+Ćwiczenie
+https://zlotow.pl/DATA/do%20ministra.jpg
+
+Tekst z okładki tylnej
+https://www.scribd.com/document/123342968/Mediokracja-a-Demokracja-I-Ogolnopolski-Zjazd-Analitykow-Mediow-Warszawa-2009#fullscreen&from_embed
+
+Tekst komitet redakcyjny
+https://www.scribd.com/doc/120961076/Zawarto%C5%9B%C4%87-mediow-czyli-rozwa%C5%BCania-nad-metodologi%C4%85-bada%C5%84-medioznawczych-Warszawa-2011#fullscreen&from_embed
+
+#2 Zamazywanie danych poufnych - zrzut ekranu
+https://docs.google.com/spreadsheets/d/11TOXYBb0dcEkNT1S37_3fE473IaxjPf-/edit?usp=sharing&ouid=101504051812196214076&rtpof=true&sd=true
+
+Ćwiczenie
+Spróbujmy na zrzucie ekranu z Państwa skrzynek e-mail gdzie widoczny jest adres
+nadawcy i odbiorcy.
+
+#3 Rozmazywanie tła - zdjęcia
+https://cloud.lbm.uw.edu.pl/index.php/s/wHawOBRHNSrMkAM
+
+Ćwiczenie
+https://photos.app.goo.gl/32QiN4wDxsk5iXfD9
+https://photos.app.goo.gl/vDCLFLiKcskxKAs1A
+
+#4 Usuwanie tła - zdjęcia
+
+https://www.lbm.uw.edu.pl/images/buzki/sztyber.jpg
+
+Ćwiczenie
+https://www.cam.uw.edu.pl/images/foto/04.jpg
+https://www.cam.uw.edu.pl/images/foto/02.jpg
+
+
+#5 Copilot
+
+Problemy z nazwą
+Bing chat, Copilot, a może Microsoft 365?
+Od połowy listopada dostępny dla klientów enterprise kupujących powyżej 300 licencji w cenie 30 USD na miesiąc.
+
+Mechanika działania
+https://www.constellationr.com/system/files/uploads/user-16818/Microsoft%20Copilot%20-%20AI%20for%20the%20Workplace.png
+
+
+Ćwiczenie - Bing CoPilot - DALL-E
+
+Wygeneruj obraz szturmowca
+
+wygeneruj plakat filmowy inspirowany plakatami pixar/disney, film ma się nazywać prezydent i przedstawiać Andrzeja Dudę stylizowanego na postać z bajki
+
+#6 Transkrypcja
+
+Ćwiczenie na podstawie tego co obecnie mówię.
