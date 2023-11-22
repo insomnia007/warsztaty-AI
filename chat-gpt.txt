@@ -1,0 +1,598 @@
+#1 Narzędzie stworzone by koniecznie zadowolić odbiorcę
+
+Wklejmy następujący tekst - fragment tekstu naukowego i zobaczmy co się zadzieje:
+
+** PROMPT **
+
+This paper focuses on the biometric analysis of video advertisements for products and services of technological companies. The objective is to analyse how respondents perceive these advertisements and the emotions they are likely to experience while watching them. Subsequently, this was compared to the findings of a parallel survey conducted concurrently.
+With the restrictions on in-person interactions and the need to maintain social distancing, traditional methods of biometric research that require physical contact or presence became impractical, potentially hazardous and in fact almost impossible.
+Remote biometric research has emerged as a critical tool during the time of the pandemic, offering numerous advantages in terms of data collection, participant safety, and accessibility therefore, many of them at that time were carried out in fields such as health and medicine (Maurya et al., 2023), psychology and neuroscience (Healey & Picard, 2020), human-computer interaction (Krafka et al., 2020) or sports (Aroganam et al., 2019). iMotions released online remote collection feature in May 2020, reacted quickly for challenges posed by the COVID-19 pandemic and therefore this environment was chosen to conduct the remote experiment accessible for respondents via dedicated link using a desktop or laptop computer equipped with a webcam.
+
+** PROMPT **
+
+Narzędzie mimowolnie bez żądnych próśb z naszej strony zaczyna opowiadać o tym co wynika/o czym jest z wklejonego fragmentu.
+
+Dla porównania jeśli dostarczymy konkretną instrukcję - zróbmy to w nowym wątku chata:
+
+** PROMPT **
+
+Wkleję teraz fragment tekstu, proszę nie odpowiadaj w żaden sposób prócz zwykłego: OK.
+
+This paper focuses on the biometric analysis of video advertisements for products and services of technological companies. The objective is to analyse how respondents perceive these advertisements and the emotions they are likely to experience while watching them. Subsequently, this was compared to the findings of a parallel survey conducted concurrently.
+With the restrictions on in-person interactions and the need to maintain social distancing, traditional methods of biometric research that require physical contact or presence became impractical, potentially hazardous and in fact almost impossible.
+Remote biometric research has emerged as a critical tool during the time of the pandemic, offering numerous advantages in terms of data collection, participant safety, and accessibility therefore, many of them at that time were carried out in fields such as health and medicine (Maurya et al., 2023), psychology and neuroscience (Healey & Picard, 2020), human-computer interaction (Krafka et al., 2020) or sports (Aroganam et al., 2019). iMotions released online remote collection feature in May 2020, reacted quickly for challenges posed by the COVID-19 pandemic and therefore this environment was chosen to conduct the remote experiment accessible for respondents via dedicated link using a desktop or laptop computer equipped with a webcam.
+
+** PROMPT **
+
+#2 Halucynowanie na przykładach
+
+#2.1 Nieistniejące publikacje
+
+Przykład rzeczy, którą przynajmniej częściowo udało się załatać
+https://chat.openai.com/share/b0cd1b91-30f3-4269-859e-514787106a54
+
+#2.2 Nadintepretowywanie stanu zastanego pomimo ciągłości wątku
+
+https://chat.openai.com/share/8625c2c9-9a75-4637-95c1-fd69ce54a8c3
+wyszukać przez ctrl+f frazę'nie działa'
+
+#2.3 Ograniczenie czata - stan wiedzy na dany dzień w zależności od wersji GPT
+
+** PROMPT **
+
+Co to jest Google Bard?
+
+** PROMPT **
+
+#2.5 Podłączmy chata do internetu
+
+Zainstalujmy wtyczkę
+https://tools.zmo.ai/webchatgpt
+
+Ćwiczenie 1
+
+** PROMPT **
+
+Co to jest Google Bard?
+
+** PROMPT **
+
+Ćwiczenie 2
+
+** PROMPT **
+
+Wiadomości z 22.11.2023
+
+** PROMPT **
+
+Zalety? Źródła.
+
+Wady? Często promptowanie bez włączonej opcji web access działa skuteczniej.
+Jest to "wpinka" do wyszukiwarek, ale może ułatwić w niektórych sytuacjach obsługę chata.
+
+Ćwiczenie 3 - przykład
+
+** PROMPT **
+
+zaciągnij wiadomości z 22.11.2023 i wrzuć ich tytuły do wektora w języku R
+
+** PROMPT **
+
+#3 Praca z dłuższym tekstem - zgłoszenie na konferencję
+
+Jak ominąć limit 15 000 znaków?
+Załadujmy dłuższy tekstprzy użyciu
+https://chatgpt-prompt-splitter.jjdiaz.dev/
+
+Link do tekstu:
+https://docs.google.com/document/d/11U7cdghNWaHhzuhILqC8jORLBo-yLp9G/edit?usp=sharing&ouid=101504051812196214076&rtpof=true&sd=true
+
+#3.1 Pisanie abstraktów i extended abstraktów
+
+EXTENDED
+
+** PROMPT **
+
+ok, please make me 1500 words (exactly) abstract for this text
+
+** PROMPT **
+
+SHORT
+
+** PROMPT **
+
+ok, please make me 250 words (exactly) abstract for this text
+
+** PROMPT **
+
+#3.2 Słowa kluczowe
+
+** PROMPT **
+
+suggest me some keywords for this abstract
+
+** PROMPT **
+
+#3.3 Bibliografia/literatura
+
+** PROMPT **
+
+from parts extract and write down bibliography with numeration in listing format [1], [2]. [3] etc.
+
+** PROMPT **
+
+#4 Popracujmy trochę z tekstem
+
+#4.1 Chat jako tłumacz wielojęzykowy
+
+** PROMPT **
+
+Wkleję teraz fragment tekstu, odpisz mi tylko OK.
+
+This paper focuses on the biometric analysis of video advertisements for products and services of technological companies. The objective is to analyse how respondents perceive these advertisements and the emotions they are likely to experience while watching them. Subsequently, this was compared to the findings of a parallel survey conducted concurrently.
+With the restrictions on in-person interactions and the need to maintain social distancing, traditional methods of biometric research that require physical contact or presence became impractical, potentially hazardous and in fact almost impossible.
+Remote biometric research has emerged as a critical tool during the time of the pandemic, offering numerous advantages in terms of data collection, participant safety, and accessibility therefore, many of them at that time were carried out in fields such as health and medicine (Maurya et al., 2023), psychology and neuroscience (Healey & Picard, 2020), human-computer interaction (Krafka et al., 2020) or sports (Aroganam et al., 2019). iMotions released online remote collection feature in May 2020, reacted quickly for challenges posed by the COVID-19 pandemic and therefore this environment was chosen to conduct the remote experiment accessible for respondents via dedicated link using a desktop or laptop computer equipped with a webcam.
+
+** PROMPT **
+
+Ćwiczenie
+
+
+** PROMPT **
+
+Przetłumacz na: język polski, hiszpański, niemiecki, francuski.
+
+** PROMPT **
+
+
+#4.1 Różne style pisania i zmiana zastosowania
+
+** PROMPT **
+
+Bazując na polskim tłumaczeniu przeredaguj tekst tak by był zrozumiały dla 12 latka
+
+** PROMPT **
+
+
+
+Zmiana natężenia emocji
+
+
+** PROMPT **
+
+Bazując na polskim tłumaczeniu przeredaguj tekst tak jakby pisała go osoba podekscytowana.
+
+** PROMPT **
+
+
+Zmiana formy osobowej
+
+
+** PROMPT **
+
+Bazując na polskim tłumaczeniu przeredaguj tekst tak jakbym pisał go w pierwszej osobie liczby pojedynczej.
+
+** PROMPT **
+
+
+Zróbmy z tego newsletter
+
+** PROMPT **
+
+zrób z tego krótki newsletter
+
+** PROMPT **
+
+
+Przekształćmy to na kod html
+
+** PROMPT **
+
+sformatuj newsletter za pomocą znaczników html bez dodatkowego ostylowania
+
+** PROMPT **
+
+Zróbmy przykład typu call-to-action
+
+** PROMPT **
+
+zaproponuj krótki tekst call-to-action
+
+** PROMPT **
+
+
+Oczyścmy kod html z ostylowania
+
+** Prompt **
+
+Usuń ostylowanie z kodu html
+
+<h2><span style="color: #4b67a1;">This is a demo</span> - <span style="color: #008000;">You can edit the text! <img src="/images/smiley.png" alt="laughing" /> &hearts;</span> </h2>
+<p>Type in the <strong>visual editor</strong> on the left or the <strong>source editor</strong> on the right and see them both change in real time.</p>
+<p>Set up the cleaning preferences below and click the <strong style="box-shadow: 3px 3px 3px #aaa; border-radius: 5px; padding: 0 5px; background-color: #2b3a56; color: #fff;"> Clean HTML</strong> button to clean the HTML source code.</p>
+<!--This is just a comment above the table...-->
+<table class="demoTable" cellpadding="10">
+<tbody>
+<tr style="text-align: center;">
+<td><img src="/images/document-editors.png" alt="editors" /></td>
+<td><img src="/images/cleaning-arrow.png" alt="cleaning" /></td>
+<td><img src="/images/clean-html.png" alt="editors" width="86" height="122" /></td>
+</tr>
+<tr>
+<td colspan="3"><strong>Convert almost any document to clean HTML in three simple steps:</strong>
+<ol>
+<li>Paste the content of the Document in the editor</li>
+<li>Click the Clean HTML (optional)</li>
+<li>Copy the generated HTML code</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong><span style="color: #366691; font-size: 20px; text-shadow: 4px 10px 4px #888;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HTML-Cleaner.com</span></strong></p>
+<p>Please find below all the cleaning preferences, the Find And Replace tool, the Lorem-ipsum generator, the <a href="https://html-cleaner.com/case-converter/">Case Converter</a> and much more!</p>
+<p>Don't forget to save this link into your bookmarks and share it with your friends.</p>
+
+** PROMPT **
+
+Zmiana formatu cytowania
+
+** PROMPT **
+
+Przedstaw najpopularniejsze style cytowania
+
+** PROMPT **
+
+Ćwiczenie
+
+** PROMPT **
+
+W każdym wyżej wymienionych zacytuj mi: Gackowski T., Brylska K., Patera M. i in., Ćwierkający Donald Trump. Czym jest Twitter dla użytkowników, dziennikarzy i prezydenta USA? Od analizy dyskursu po badania okulograficzne, Wydawnictwo Adama Marszałka w Toruniu oraz Wydawnictwo Laboratorium Badań Medioznawczych UW, Toruń 2018. 
+
+** PROMPT **
+
+Tutaj oczywiście jest możliwość użycia na zasadzie - skonweruj 1 format na 2
+
+#4 Przygotowywanie zajęć dla studentów
+
+#4.1 Pisanie konkretnych przykładów od zera
+
+** PROMPT **
+
+Wytłumacz na trzech prostych przykładach jak działa dataframe w języku R.
+
+** PROMPT **
+
+#4.2 Wyjaśnianie konkretnych funkcji/fragmentów
+
+** PROMPT **
+
+Wytłumacz ten fragment kodu:
+
+imiona <- c("Anna", "Jan", "Marta")
+wiek <- c(25, 30, 22)
+zarobki <- c(5000, 6000, 4500)
+
+** PROMPT **
+
+
+#4.3 Rozbudowywanie istniejących pomysłów
+
+** PROMPT **
+
+Przygotuj mi dla poniższej bazy danych przykłady:
+- zapytań sortujących
+
+-- phpMyAdmin SQL Dump
+-- version 4.9.7
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost
+-- Czas generowania: 09 Lis 2023, 14:58
+-- Wersja serwera: 10.4.28-MariaDB-cll-lve
+-- Wersja PHP: 7.2.34
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Baza danych: `adambalc_zajecia`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Struktura tabeli dla tabeli `customers`
+--
+
+CREATE TABLE `customers` (
+  `id` int(11) NOT NULL,
+  `first_name` text DEFAULT NULL,
+  `last_name` text DEFAULT NULL,
+  `address` text DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+
+--
+-- Zrzut danych tabeli `customers`
+--
+
+INSERT INTO `customers` (`id`, `first_name`, `last_name`, `address`) VALUES
+(1, 'John', 'Doe', '123 Main St'),
+(2, 'Jane', 'Smith', '456 Elm St'),
+(3, 'Michael', 'Johnson', '789 Oak St'),
+(4, 'Emily', 'Brown', '101 Maple St'),
+(5, 'William', 'Davis', '202 Pine St'),
+(6, 'Alice', 'Johnson', '456 Oak St'),
+(7, 'Bob', 'Smith', '789 Elm St'),
+(8, 'Charlie', 'Brown', '101 Pine St'),
+(9, 'David', 'Wilson', '222 Birch St'),
+(10, 'Eva', 'Harris', '333 Cedar St'),
+(11, 'Frank', 'Miller', '444 Redwood St'),
+(12, 'Grace', 'Davis', '555 Sequoia St'),
+(13, 'Henry', 'Lee', '666 Maple St'),
+(14, 'Ivy', 'Garcia', '777 Willow St'),
+(15, 'Jack', 'Moore', '888 Redbud St'),
+(16, 'Karen', 'Martinez', '999 Birchwood St'),
+(17, 'Liam', 'Taylor', '123 Cedarwood St'),
+(18, 'Mia', 'Jones', '456 Pinecone St');
+
+-- --------------------------------------------------------
+
+--
+-- Struktura tabeli dla tabeli `orders`
+--
+
+CREATE TABLE `orders` (
+  `id` int(11) NOT NULL,
+  `burger` text DEFAULT NULL,
+  `side` text DEFAULT NULL,
+  `drink` text DEFAULT NULL,
+  `total_price` decimal(10,2) DEFAULT NULL,
+  `customer_id` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+
+--
+-- Zrzut danych tabeli `orders`
+--
+
+INSERT INTO `orders` (`id`, `burger`, `side`, `drink`, `total_price`, `customer_id`) VALUES
+(26, 'Cheeseburger', 'Fries', 'Coke', 15.00, 1),
+(27, 'Double Deluxe Burger', 'Onion Rings', 'Lemonade', 25.00, 1),
+(28, 'Chicken Burger', 'Fries', 'Milkshake', 20.00, 1),
+(29, 'Veggie Burger', 'Onion Rings', 'Cola', 18.00, 2),
+(30, 'Fish Burger', 'Fries', 'Iced Tea', 22.00, 2),
+(31, 'Double Deluxe Burger', 'Fries', 'Milkshake', 25.00, 3),
+(32, 'Chicken Burger', 'Onion Rings', 'Cola', 22.00, 3),
+(33, 'Veggie Burger', 'Onion Rings', 'Cola', 18.00, 4),
+(34, 'Fish Burger', 'Fries', 'Iced Tea', 22.00, 5);
+
+--
+-- Indeksy dla zrzutów tabel
+--
+
+--
+-- Indeksy dla tabeli `customers`
+--
+ALTER TABLE `customers`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indeksy dla tabeli `orders`
+--
+ALTER TABLE `orders`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `unique_id` (`id`),
+  ADD KEY `fk_customer_id` (`customer_id`);
+
+--
+-- AUTO_INCREMENT dla zrzuconych tabel
+--
+
+--
+-- AUTO_INCREMENT dla tabeli `customers`
+--
+ALTER TABLE `customers`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+
+--
+-- AUTO_INCREMENT dla tabeli `orders`
+--
+ALTER TABLE `orders`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
+
+--
+-- Ograniczenia dla zrzutów tabel
+--
+
+--
+-- Ograniczenia dla tabeli `orders`
+--
+ALTER TABLE `orders`
+  ADD CONSTRAINT `fk_customer_id` FOREIGN KEY (`customer_id`) REFERENCES `customers` (`id`);
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+** PROMPT **
+
+
+** PROMPT **
+
+a jakieś bardziej złożone zapytania tego typu?
+
+** PROMPT **
+
+
+** PROMPT **
+
+czy jesteś w stanie rozbudować mi tę bazę o jakąś miękką encję i dać opis?
+
+** PROMPT **
+
+
+** PROMPT **
+
+a jaka będzie relacja z obecnymi tabelami?
+
+** PROMPT **
+
+
+** PROMPT ** 
+
+dodaj kilka przyjładowych promocji do bazy 
+
+** PROMPT **
+
+
+** PROMPT **
+
+to przypisanie promocji do zamówienia jest złe, wykorzystaj wcześniej użytą tabelę łączącą
+
+** PROMPT **
+
+
+
+** PROMPT **
+
+Zaproponuj mi wyzwalacz dla tej bazy danych oraz daj przykład bym go przetestował
+
+** PROMPT **
+
+
+** PROMPT **
+
+napisz mi ogólne informacje o wyzwalaczach
+
+** PROMPT **
+
+#4.4 Tworzenie zadań i testów
+
+** PROMPT **
+
+stwórz zamknięty test wiedzy TAK NIE na podstawie tematyki tej konwersacji i wskaż poprawne odpowiedzi
+
+** PROMPT **
+
+
+** PROMPT **
+
+ZRÓB CSV
+
+** PROMPT **
+
+#4.5 Konwersja kodu między językami programowania
+
+** PROMPT **
+
+Przepisz to do pythona:
+---
+title: Przewidywanie uruchomienia silnika spalinowego na podstawie liczby oktanowej
+  paliwa oraz wieku auta
+output:
+  pdf_document: default
+  word_document: default
+  html_notebook: default
+  html_document:
+    df_print: paged
+---
+
+<h1>Opis problemu:</h1>
+
+Chcę zbadań za pomocą perceptronu wielowarstwowego zależność pomiędzy wiekiem samochodu, a możliwością zapalenia silnika jeśli nalana jest benzyna o zróżnicowanej liczbie oktanowej. Nie jest tajemnicą, że na tynek wschodni bardzo często używa się gorzego gatunkowo paliwa z mniejszą liczbą oktanową. Producenci samochodów, zwłaszcza tych nowszych biorą to pod uwagę, przygotowują silniki, które mogą zapalić nawet przy użyciu paliwa poniżej 80 oktanów - spotkałem się z takim problemem w modelu Citroen C-Eleese wydanego kilka lat temu, gdzie robiąc samochód budżetowy, producent przygotował się na wprowadzenie na ciężki rynek rosyjski, gdzie jakość paliwa jest bardzo zróżnicowana, stąd właśnie pomysł na ten projekt.
+
+<h1>Sposób realizacji:</h1>
+
+Korzystam z języka oprogramowania R wraz ze środowiskie R-Studio, poniżej przedstawiam krok po kroku sposób realizacji projektu. Do realizacji używam pakietu neuralnet. Stosuję klasyczne podejście, przechodzę od stworzenia najpierw danych treningowych, na podstawie których trenuję sieć, następnie normalizuję te dane, buduję sieć neuronową, tworzę dane testowe i sprawdzam działanie sieci w praktyce.
+
+<b>Realizacja krok po kroku:</b>
+
+W pierwszej kolejności należy zainstalować pakiet neuralnet.
+
+```{r message=FALSE, warning=FALSE}
+# instalacja pakietu neutralnet
+install.packages("neuralnet")
+```
+
+Tworzymy zestaw danych, na podstawie których później wytrenujemy naszą sieć.
+
+```{r message=FALSE, warning=FALSE}
+# Tworzę zestaw danych treningowych
+WIEK=c(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30)
+LICZBA_OKTANOWA_PALIWA=c(80,82,86,90,95,80,98,82,95,80,98,82,80,82,86,90,80,98,82,95,80,98,82,80,82,86,82,80,82,98)
+CZY_ZAPALI=c(1,1,1,0,1,0,1,0,1,1,0,1,0,1,1,0,1,1,0,1,0,1,0,0,1,1,0,1,0,1)
+```
+
+Tworzymy data frame.
+
+```{r}
+# Tworzę data frame (ramkę danych) by uporządkować zestaw danych
+df=data.frame(WIEK,LICZBA_OKTANOWA_PALIWA,CZY_ZAPALI)
+```
+
+Budujemy sieć neuronową.
+
+```{r message=FALSE, warning=FALSE}
+# Ładowanie biblioteki
+require(neuralnet)
+
+# Konstruowanie sieci neuronowej
+nn=neuralnet(CZY_ZAPALI~WIEK+LICZBA_OKTANOWA_PALIWA,data=df, hidden=3,act.fct = "logistic",
+                linear.output = FALSE)
+```
+
+Rysuję sieć neuronową.
+
+```{r}
+plot(nn)
+```
+
+Tworzę zestaw danych testowych, dla których chciałbym sprawdzić, czy działa predykcja
+
+```{r}
+WIEK=c(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40)
+LICZBA_OKTANOWA_PALIWA=c(90,80,98,82,95,80,98,86,90,95,80,82,86,82,82,86,82,82,80,80,82,98,80,82,95,80,98,80,98,82,82,95,80,98,86,90,95,80,82,86)
+test=data.frame(WIEK,LICZBA_OKTANOWA_PALIWA)
+```
+
+<h1>Wyniki</h1>
+
+Robię predykcję dla danych testowych z użyciem naszego perceptronu wielowarstwowego
+
+```{r}
+# Predykcja
+Predict=compute(nn,test)
+Predict$net.result
+```
+
+Zokrąglam wynik by uzyskać wartość binarną: 0-nie silnik odpali i 1-silnik odpali i otrzymuję następujące wyniki końcowe.
+
+```{r}
+# Konwersja wartości na liczby binarne by mieć wynik 0-nie odpali i 1-odpali
+prob <- Predict$net.result
+pred <- ifelse(prob>0.5, 1, 0)
+pred
+```
+
+<h1>Wnioski</h1>
+
+Z uwagi na to, że dość mocno urozmaiciłem zestaw danych treningowych i testowych oraz celowo pomieszałem wartości żeby zobaczyć jak zadziała sieć neuronowa, to można dojść do wniosku, że wiek samochodu w przypadku tych danych nie ma związku z teoretycznym zapaleniem auta w zależności od liczby oktanowej. Warto podkreślić, że ten wynik determinują w głównej mierze dostarczone przeze mnie dane testowe. Kolejny wniosek to pewne założone uogólnienie danych - czytaj sprowadzenie ich w konsekwencji do wartości binarnych - zero: nie zapali i jeden - zapali, które to oczywiście są zaaokrąglane w zgodzie z zasadami matematyki dla wypłaszczenia wyniku. Warto jednak przyjrzeć się tym wartościom przed wypłaszczeniem, gdzie widać, że prawdopodobieństwo obliczone przez sieć waha się od 0.4 do 1.0, przez wypłaszczenie założyliśmy, że wynik powyżej 0.5 oznacza, że auto zapali, jednak jest to dość spory magines błedu by móc wnioskować i zakładać, że rzeczywiście zależność między wiekiem auta, oktanowością paliwa, a zapłonem istnieje. Musiałoby to być przedmiotem dalszych badań, tudzież rozszerzenia danych wejściowych o dodatkowe aspekty lub wymagałoby urealniania danych treningowych.
+
+** PROMPT **
+
+#4.6 Rozwiązanie konktetnego problemu za pomocą języka programowania
+
+** PROMPT **
+
+W jaki sposób za pomocą R wczytasz plik .txt oraz policzysz wszystkie wystąpienia frazy 'rząd demokratyczny'. Uwzględnij wszystkie odmiany frazy.
+
+** PROMPT **
